@@ -22,6 +22,20 @@ nav a {
   user-select: none;
 }
 
+.form-signin {
+  width: 30%;
+  margin: auto;
+}
+
+.form-signin img {
+  width: 100%;
+}
+
+.form-signin .btn{
+  width: 30%;
+  margin: 20px auto;
+}
+
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
