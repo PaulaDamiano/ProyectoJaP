@@ -4,7 +4,7 @@ function validacion(){
     const boton = document.getElementById("regBtn");
 
     boton.addEventListener("click", ()=>{
-        if (email.value != "" || contraseña.value != ""){
+        if (email.value != "" && contraseña.value != ""){
             window.location = "portada.html";
     }else{
         alert('Debe rellenar todos los campos');
